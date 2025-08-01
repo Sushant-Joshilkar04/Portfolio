@@ -104,10 +104,10 @@ const SkillsSection = () => {
           name: "Node.js",
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
-        // {
-        //   name: "Python",
-        //   icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
-        // },
+        {
+          name: "Python",
+          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+        },
         {
           name: "PostgreSQL",
           icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
@@ -155,11 +155,11 @@ const SkillsSection = () => {
       title: "Cloud & DevOps",
       color: "text-orange-400",
       skills: [
-        // { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        // {
-        //   name: "Docker",
-        //   icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        // },
+        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
+        {
+          name: "Docker",
+          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
+        },
         // { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
         // {
         //   name: "Kubernetes",
@@ -178,7 +178,7 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        // { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
+        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
         // {
         //   name: "Webpack",
         //   icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,

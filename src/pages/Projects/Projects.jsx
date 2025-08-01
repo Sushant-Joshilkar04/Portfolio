@@ -17,6 +17,26 @@ const projects = [
     liveLink: "https://healthsetu.netlify.app/",
   },
   {
+  title: "EduAI – AI-Powered Learning Platform",
+  description:
+    "EduAI leverages Groq API to turn academic PDFs into structured Smart Notes, flashcards, and podcasts. Features include personalized AI tutoring, interactive chat-based doubt-solving, and multimodal learning support including audio-based summaries.",
+  src: DRIVE_IMG,
+  // link: "https://github.com/your-username/eduai/blob/main/public/eduai.jpg",
+  color: "#8b5cf6",
+  githubLink: "https://github.com/Sushant-Joshilkar04/EduAI",
+  // liveLink: "https://eduai-learning.netlify.app/",
+  },
+  {
+  title: "Finance Tracker - Personal Finance Management",
+  description:
+    "A full-stack finance management application to track expenses, manage budgets, and gain financial insights. Supports CRUD operations on transactions, category-wise classification with pie charts, and budget vs actual analysis using intuitive visualizations.",
+  src: DRIVE_IMG,
+  // link: "https://github.com/your-username/finance-tracker/blob/main/public/finance-tracker.jpg",
+  color: "#10b981",
+  githubLink: "https://github.com/Sushant-Joshilkar04/Finance_Tracker",
+  // liveLink: "https://finance-tracker-demo.netlify.app/",
+},
+  {
     title: "BlogNest - Blogging Platform",
     description:
       "Full-stack blogging platform with React.js, Node.js, Express.js, MongoDB, and GROQ API. Enables authenticated users to perform full CRUD on blogs. Role-based JWT authentication ensures secure access for users and admins. Admin dashboard includes real-time analytics, user management, and post moderation with auto-flagging of posts reported over 10 times.",
